@@ -9,11 +9,11 @@
   <body>
     <section>
       <div class="card">
-        <div class="avatar-container">
+        <div class="image-container">
           <img
-            class="avatar"
-            src="./assets/avatar.jpg"
-            alt="avatar"
+            class="image"
+            src="./assets/image-kevin-james.webp"
+            alt="image"
             id="avatarPreview"
           />
         </div>
@@ -30,11 +30,43 @@
         <div class="links">
           <a href="education.html" class="link-card">Educación</a>
           <a href="experience.html" class="link-card">Experiencia</a>
+          <a href="experience.html" class="link-card">Proyectos</a>
+          <a
+            href="https://github.com/stevenbisbi"
+            class="link-card"
+            target="_blank"
+          >
+            Github/Repositorios</a
+          >
         </div>
 
         <button id="downloadBtn" class="link-card" style="font-weight: bold">
           Descargar CV
         </button>
+
+        <div id="contact">
+          <h2>Hablemos</h2>
+
+          <form action="https://formspree.io/f/mldbggje" method="POST">
+            <textarea
+              class="textarea"
+              name="message"
+              placeholder="Escribe tu mensaje aquí..."
+              required
+            ></textarea>
+            <br />
+
+            <button class="link-card textarea-buttom" type="submit">
+              Enviar
+            </button>
+            <br />
+            <img
+              class="gif-message"
+              src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjBxNGU1cGNscGZxZWQ3bXY5aWQ2NHFuN2lyMXJja2tnc3B2eWgwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hRU626SsKEoHvaNOWb/giphy.gif"
+              alt="gif message"
+            />
+          </form>
+        </div>
       </div>
     </section>
   </body>
