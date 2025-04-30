@@ -66,3 +66,43 @@
   border-radius: 10px;
   border: 1px solid #ccc;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.center {
+  text-align: center;
+}
+.tech-section ul {
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.card-projects {
+  width: 250px;
+  height: 350px;
+  background-color: lightblue;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Animación suave al escalar */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* deja espacio entre el contenido y los botones */
+  padding: 20px;
+}
+
+.card-projects:hover {
+  transform: scale(1.2);
+}
